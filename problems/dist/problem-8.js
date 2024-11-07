@@ -4,5 +4,4 @@ const validateKeys = (obj, keys) => {
     return isExist;
 };
 const person1 = { name: "Alice", age: 25, email: "alice@example.com" };
-console.log(validateKeys(person1, ["name", "age"]));
-console.log(validateKeys(person1, ["name", "address"]));
+// console.log(validateKeys(person1, ["name", "age"]));
